@@ -16,6 +16,20 @@ timestamps, transaction hashes, trader and contract addresses, trade direction,
 execution prices, marginal pool prices, price impact, liquidity-provider fees,
 gas costs, and all-in execution prices.
 
+### Data Overview
+
+![Figure 1](Figure/F1.png)
+
+*Figure 1. ETH/USDC prices on Uniswap v3 and Binance.*
+
+![Figure 2](Figure/F2.png)
+
+*Figure 2. Price spread between Uniswap v3 and Binance.*
+
+![Figure 3](Figure/F3.png)
+
+*Figure 3. Minute-level ETH/USDC price movements during a high-volatility period.*
+
 Uniswap transaction data are synchronized with Binance one-minute market
 prices to study both long-run price integration and short-run information
 transmission. The empirical framework includes Augmented Dickey-Fuller tests,
